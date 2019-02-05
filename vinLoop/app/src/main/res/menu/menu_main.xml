@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!-- Search, should appear as action button -->
+
+    <!--
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/a_button"
+        android:title="Favorites"
+        android:icon="@drawable/ic_heart_xxhdpi"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/profile_button"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile_xxhdpi"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    -->
+
+</menu>

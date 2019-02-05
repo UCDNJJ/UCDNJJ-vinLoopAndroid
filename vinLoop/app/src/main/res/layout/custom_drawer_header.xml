@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/drawer_header_background"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logo_480"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/circleView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+</RelativeLayout>

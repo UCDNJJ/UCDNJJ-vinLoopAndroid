@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right">
+
+    <!-- Title for Filter page -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <!-- Price Title -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|left">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_price_title_text"
+                android:gravity="bottom|left"
+                android:textSize="24sp"
+                android:textColor="@color/filter_titles_text">
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/filter_spacer_line"/>
+
+        <!-- Price buttons -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/oneDollarSignButton"
+                    android:text="@string/filter_price_button_one_dollar"
+                    android:layout_weight="1"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twoDollarSignButton"
+                    android:text="@string/filter_price_button_two_dollar"
+                    android:layout_weight="1"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/threeDollarSignButton"
+                    android:text="@string/filter_price_button_three_dollar"
+                    android:layout_weight="1"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fourDollarSignButton"
+                    android:text="@string/filter_price_button_four_dollar"
+                    android:layout_weight="1"
+                    android:textStyle="bold">
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Distance Title -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_distance_title_text"
+                android:gravity="bottom|left"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="24sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/filter_spacer_line"/>
+
+        <!-- Distance Button -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/filter_distance_button_initial_text"
+                android:id="@+id/BestMatchButtonDistance"
+                android:textStyle="bold">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_varietal_title_text"
+                android:gravity="bottom|left"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="24sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/filter_spacer_line"/>
+
+        <!-- Varietals Button -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/filter_varietal_button_initial_text"
+                android:id="@+id/BestMatchButtonVarietal"
+                android:textStyle="bold">
+            </Button>
+
+        </LinearLayout>
+
+        <!-- Sort by -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_sort_by_title_text"
+                android:gravity="bottom|left"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="24sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/filter_spacer_line"/>
+
+        <!-- Sort by button -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/BestMatchButtonSortBy"
+                android:text="@string/filter_sort_by_button_initial_text"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_general_features_title_text"
+                android:gravity="bottom|left"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="24sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@color/filter_spacer_line"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_walk_in_switch_text"
+                android:id="@+id/WalkInText"
+                android:gravity="center_horizontal|left"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="16sp">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="end">
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switchWalkIn">
+                </Switch>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_by_appt_switch_text"
+                android:id="@+id/ApptText"
+                android:textColor="@color/filter_titles_text"
+                android:textSize="16sp">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right">
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/switchAppt"
+                    android:gravity="right">
+                </Switch>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_CANCEL_button_text"
+                android:id="@+id/cancelButton"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_OK_button_text"
+                android:id="@+id/okButton"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
